@@ -1,0 +1,47 @@
+#greycol {
+    color: grey;
+}
+h3:first-of-type {
+  color: pink;
+}
+div > p {
+  color: red;
+}
+
+ p:nth-of-type(3) {
+  color: green; 
+}
+
+.yellow {
+    color: yellow;
+}
+.monday li {
+  color: blue;
+}
+
+.tuesday li {
+  color: green;
+}
+
+.wednesday li {
+  color: purple;
+}
+
+.thursday li {
+  color: orange;
+}
+
+.friday li {
+  color: red;
+}
+.schedule li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: aqua;
+}
+
+
+.schedule li:active {
+  font-weight: bold;
+  transform: scale(1.05);
+}
